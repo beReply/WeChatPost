@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using log4net;
 using log4net.Config;
 using log4net.Repository;
@@ -37,6 +38,8 @@ namespace WeChatPost
             services.AddControllers();
 
             services.AddHttpClient();
+
+            services.AddAutoMapper(typeof(Startup));
 
             #region sql server connect
 

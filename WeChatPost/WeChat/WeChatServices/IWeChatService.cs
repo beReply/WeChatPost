@@ -10,5 +10,7 @@ namespace WeChatPost.WeChat.WeChatServices
         Task<string> GetAccessTokenAsync();
 
         Task<string> GetServerIpAsync(string accessToken);
+
+        void ReceiveMessageProcessing(string xmlMessage);
     }
 }

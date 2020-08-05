@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "8GLpCZmJge7Cn5sF6TWuru0la+g2dg2A3Kq0PECtaEyss9CTaQXDcziSJkjsfQKDsRAkoeIH00PYCzrCDPn0iQ==",
+  "dgSpecHash": "vo+2N1b0jp+8pO9yLHQkPmzk1IzDu9T7tTb2BTOXF8zjKmuzuo6JEDIiCCWoUTrzUmL4CsM/ws6a7DAs6Nd+HQ==",
   "success": true,
   "projectFilePath": "H:\\codeLib\\work\\WeChatPost\\WeChatPost\\WeChatPost\\WeChatPost.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\23663\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
+    "C:\\Users\\23663\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.1\\automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",
     "C:\\Users\\23663\\.nuget\\packages\\log4net\\2.0.8\\log4net.2.0.8.nupkg.sha512",
     "C:\\Users\\23663\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\23663\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
@@ -81,7 +83,7 @@
     "C:\\Users\\23663\\.nuget\\packages\\system.net.webheadercollection\\4.0.1\\system.net.webheadercollection.4.0.1.nupkg.sha512",
     "C:\\Users\\23663\\.nuget\\packages\\system.private.datacontractserialization\\4.3.0\\system.private.datacontractserialization.4.3.0.nupkg.sha512",
     "C:\\Users\\23663\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
-    "C:\\Users\\23663\\.nuget\\packages\\system.reflection.emit\\4.3.0\\system.reflection.emit.4.3.0.nupkg.sha512",
+    "C:\\Users\\23663\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Users\\23663\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.3.0\\system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
     "C:\\Users\\23663\\.nuget\\packages\\system.reflection.emit.lightweight\\4.3.0\\system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
     "C:\\Users\\23663\\.nuget\\packages\\system.reflection.extensions\\4.3.0\\system.reflection.extensions.4.3.0.nupkg.sha512",

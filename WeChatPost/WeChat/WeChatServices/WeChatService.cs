@@ -5,6 +5,9 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using WeChatPost.Configuration;
+using WeChatPost.Logger;
+using WeChatPost.WeChat.Extensions;
+using WeChatPost.WeChat.Param;
 
 namespace WeChatPost.WeChat.WeChatServices
 {
@@ -12,11 +15,13 @@ namespace WeChatPost.WeChat.WeChatServices
     {
         private readonly WeChatParam _weChatParam;
         private readonly IRequestService _requestService;
+        private readonly ILog4Provider _logger;
 
-        public WeChatService(WeChatParam weChatParam, IRequestService requestService)
+        public WeChatService(WeChatParam weChatParam, IRequestService requestService, ILog4Provider logger)
         {
             _weChatParam = weChatParam;
             _requestService = requestService;
+            _logger = logger;
         }
 
         #region 基础支持
@@ -60,7 +65,11 @@ namespace WeChatPost.WeChat.WeChatServices
 
         #region 接收消息
 
-        
+        public void ReceiveMessageProcessing(string xmlMessage)
+        {
+            var receiveMessage = xmlMessage.XmlToObj<ReceiveMessage>();
+            _logger.Info(typeof(ReceiveMessage), $"{JsonConvert.SerializeObject(receiveMessage)}");
+        }
 
         #endregion
 

@@ -389,3 +389,5 @@ H:\codeLib\work\WeChatPost\WeChatPost\WeChatPost\bin\Release\netcoreapp3.1\win-x
 H:\codeLib\work\WeChatPost\WeChatPost\WeChatPost\bin\Release\netcoreapp3.1\win-x64\System.Security.Cryptography.ProtectedData.dll
 H:\codeLib\work\WeChatPost\WeChatPost\WeChatPost\bin\Release\netcoreapp3.1\win-x64\sni.dll
 H:\codeLib\work\WeChatPost\WeChatPost\WeChatPost\obj\Release\netcoreapp3.1\win-x64\WeChatPost.csprojAssemblyReference.cache
+H:\codeLib\work\WeChatPost\WeChatPost\WeChatPost\bin\Release\netcoreapp3.1\win-x64\log4net.config
+H:\codeLib\work\WeChatPost\WeChatPost\WeChatPost\bin\Release\netcoreapp3.1\win-x64\log4net.dll

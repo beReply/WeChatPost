@@ -3,13 +3,11 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Threading.Tasks;
-using WeChatPost.DataProvider.EFCore.Entities;
 
-namespace WeChatPost.WeChat.Param
+namespace WeChatPost.DataProvider.EFCore.Entities
 {
-    public class ReceiveMessage
+    public class ReceiveMessageEntity
     {
-
         #region 必有参数
 
         [DisplayName("开发者微信号")]
@@ -73,11 +71,5 @@ namespace WeChatPost.WeChat.Param
         public string Url { get; set; }
 
         #endregion
-
-
-        public void ToReceiveMessageEntity()
-        {
-
-        }
     }
 }

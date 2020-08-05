@@ -56,7 +56,9 @@ H:\codeLib\work\WeChatPost\WeChatPost\WeChatPost\bin\Debug\netcoreapp3.1\runtime
 H:\codeLib\work\WeChatPost\WeChatPost\WeChatPost\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 H:\codeLib\work\WeChatPost\WeChatPost\WeChatPost\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 H:\codeLib\work\WeChatPost\WeChatPost\WeChatPost\bin\Debug\netcoreapp3.1\log4net.dll
+H:\codeLib\work\WeChatPost\WeChatPost\WeChatPost\bin\Debug\netcoreapp3.1\log4net.config
+H:\codeLib\work\WeChatPost\WeChatPost\WeChatPost\bin\Debug\netcoreapp3.1\AutoMapper.dll
+H:\codeLib\work\WeChatPost\WeChatPost\WeChatPost\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 H:\codeLib\work\WeChatPost\WeChatPost\WeChatPost\obj\Debug\netcoreapp3.1\WeChatPost.csproj.CoreCompileInputs.cache
 H:\codeLib\work\WeChatPost\WeChatPost\WeChatPost\obj\Debug\netcoreapp3.1\WeChatPost.MvcApplicationPartsAssemblyInfo.cs
 H:\codeLib\work\WeChatPost\WeChatPost\WeChatPost\obj\Debug\netcoreapp3.1\WeChatPost.MvcApplicationPartsAssemblyInfo.cache
-H:\codeLib\work\WeChatPost\WeChatPost\WeChatPost\bin\Debug\netcoreapp3.1\log4net.config
