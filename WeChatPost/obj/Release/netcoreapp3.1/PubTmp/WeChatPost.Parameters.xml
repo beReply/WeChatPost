@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="www.bronya.xyz" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^H:\\codeLib\\work\\WeChatPost\\WeChatPost\\WeChatPost\\obj\\Release\\netcoreapp3\.1\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>
