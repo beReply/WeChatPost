@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Threading.Tasks;
-using WeChatPost.DataProvider.EFCore.Entities;
 
 namespace WeChatPost.WeChat.Param
 {

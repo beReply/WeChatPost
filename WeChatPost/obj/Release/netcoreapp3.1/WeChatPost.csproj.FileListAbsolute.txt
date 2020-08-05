@@ -60,3 +60,5 @@ H:\codeLib\work\WeChatPost\WeChatPost\WeChatPost\bin\Release\netcoreapp3.1\runti
 H:\codeLib\work\WeChatPost\WeChatPost\WeChatPost\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 H:\codeLib\work\WeChatPost\WeChatPost\WeChatPost\bin\Release\netcoreapp3.1\log4net.config
 H:\codeLib\work\WeChatPost\WeChatPost\WeChatPost\bin\Release\netcoreapp3.1\log4net.dll
+H:\codeLib\work\WeChatPost\WeChatPost\WeChatPost\bin\Release\netcoreapp3.1\AutoMapper.dll
+H:\codeLib\work\WeChatPost\WeChatPost\WeChatPost\bin\Release\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

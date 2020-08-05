@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace WeChatPost.Configuration
 {
-    public class WeChatParam
+    public class WeChatConf
     {
         public string AppId { get; set; }
 

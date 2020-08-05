@@ -6,9 +6,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 
-namespace WeChatPost.WeChat.Extensions
+namespace WeChatPost.Extensions
 {
-    public static class XmlExtensions
+    public static class XmlExtension
     {
         public static T XmlToObj<T>(this string xmlStr)
         {
@@ -19,7 +19,7 @@ namespace WeChatPost.WeChat.Extensions
                 .Replace("\n</xml>", "")
                 .Replace("\n", "\r\n");
             body =
-                $"<?xml version=\"1.0\" encoding=\"utf-16\"?>\r\n<{typeof(T).Name} xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">\r\n"
+                $"<?xml version=\"1.0\" encoding=\"utf-16\"?>\r\n<{typeof(T).Name}>\r\n"
                 + body + $"\r\n</{typeof(T).Name}>";
 
             T obj;

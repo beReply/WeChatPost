@@ -5,18 +5,44 @@ using System.Threading.Tasks;
 
 namespace WeChatPost.DataProvider.Enums
 {
-    public class WeChatEnum
+    public static class WeChatEnum
     {
+        #region 方法
+
+        public static MsgType ToMsgType(this string str)
+        {
+            var msgTypeArray = Enum.GetValues(typeof(MsgType)) as MsgType[];
+
+            foreach (var msgType in msgTypeArray)
+            {
+                if (msgType.ToString() == str)
+                {
+                    return msgType;
+                }
+            }
+            return MsgType.unknown;
+        }
+
+        #endregion
+
+
+
+        #region 枚举
+
         public enum MsgType
         {
-            text = 1, //文本消息
-            image = 2, //图片消息
-            voice = 3, //语音消息
-            video = 4, //视频消息
-            shortvideo = 5, //小视频消息
-            location = 6, //地理位置消息
-            link = 7, //链接消息
-            unknown = 8 //未知类型
+            text = 1,
+            image = 2,
+            voice = 3,
+            video = 4,
+            shortvideo = 5,
+            location = 6,
+            link = 7,
+            unknown = 8
         }
+
+        #endregion
+
+
     }
 }

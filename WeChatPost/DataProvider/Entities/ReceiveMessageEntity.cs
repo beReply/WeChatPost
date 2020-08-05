@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Threading.Tasks;
+using static WeChatPost.DataProvider.Enums.WeChatEnum;
 
-namespace WeChatPost.DataProvider.EFCore.Entities
+namespace WeChatPost.DataProvider.Entities
 {
     public class ReceiveMessageEntity
     {
@@ -13,14 +14,14 @@ namespace WeChatPost.DataProvider.EFCore.Entities
         [DisplayName("开发者微信号")]
         public string ToUserName { get; set; }
 
-        [DisplayName("发送方帐号，一个OpenID")]
+        [DisplayName("发送方OpenID")]
         public string FromUserName { get; set; }
 
         [DisplayName("消息创建时间")]
         public string CreateTime { get; set; }
 
         [DisplayName("消息类型")]
-        public string MsgType { get; set; }
+        public MsgType MsgType { get; set; }
 
         [DisplayName("消息Id")]
         public string MsgId { get; set; }

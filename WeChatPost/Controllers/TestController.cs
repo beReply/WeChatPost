@@ -6,11 +6,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using log4net;
-using WeChatPost.DataProvider.EFCore.Entities;
 using WeChatPost.Logger;
-using WeChatPost.WeChat.Extensions;
 using WeChatPost.WeChat.WeChatServices;
 using WeChatPost.WeChat.Param;
+using WeChatPost.DataProvider.Entities;
 
 namespace WeChatPost.Controllers
 {
@@ -35,7 +34,7 @@ namespace WeChatPost.Controllers
                 ToUserName = "测试",
                 FromUserName = "测试",
                 CreateTime = "测试",
-                MsgType = "测试",
+                MsgType = "image",
                 MsgId = "测试",
                 Content = "测试",
                 MediaId = "测试",

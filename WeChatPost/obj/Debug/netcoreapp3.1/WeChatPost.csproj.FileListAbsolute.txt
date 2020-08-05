@@ -59,6 +59,15 @@ H:\codeLib\work\WeChatPost\WeChatPost\WeChatPost\bin\Debug\netcoreapp3.1\log4net
 H:\codeLib\work\WeChatPost\WeChatPost\WeChatPost\bin\Debug\netcoreapp3.1\log4net.config
 H:\codeLib\work\WeChatPost\WeChatPost\WeChatPost\bin\Debug\netcoreapp3.1\AutoMapper.dll
 H:\codeLib\work\WeChatPost\WeChatPost\WeChatPost\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+H:\codeLib\work\WeChatPost\WeChatPost\WeChatPost\bin\Debug\netcoreapp3.1\DnsClient.dll
+H:\codeLib\work\WeChatPost\WeChatPost\WeChatPost\bin\Debug\netcoreapp3.1\MongoDB.Bson.dll
+H:\codeLib\work\WeChatPost\WeChatPost\WeChatPost\bin\Debug\netcoreapp3.1\MongoDB.Driver.dll
+H:\codeLib\work\WeChatPost\WeChatPost\WeChatPost\bin\Debug\netcoreapp3.1\MongoDB.Driver.Core.dll
+H:\codeLib\work\WeChatPost\WeChatPost\WeChatPost\bin\Debug\netcoreapp3.1\MongoDB.Libmongocrypt.dll
+H:\codeLib\work\WeChatPost\WeChatPost\WeChatPost\bin\Debug\netcoreapp3.1\SharpCompress.dll
+H:\codeLib\work\WeChatPost\WeChatPost\WeChatPost\bin\Debug\netcoreapp3.1\runtimes\win\native\libzstd.dll
+H:\codeLib\work\WeChatPost\WeChatPost\WeChatPost\bin\Debug\netcoreapp3.1\runtimes\win\native\snappy32.dll
+H:\codeLib\work\WeChatPost\WeChatPost\WeChatPost\bin\Debug\netcoreapp3.1\runtimes\win\native\snappy64.dll
 H:\codeLib\work\WeChatPost\WeChatPost\WeChatPost\obj\Debug\netcoreapp3.1\WeChatPost.csproj.CoreCompileInputs.cache
 H:\codeLib\work\WeChatPost\WeChatPost\WeChatPost\obj\Debug\netcoreapp3.1\WeChatPost.MvcApplicationPartsAssemblyInfo.cs
 H:\codeLib\work\WeChatPost\WeChatPost\WeChatPost\obj\Debug\netcoreapp3.1\WeChatPost.MvcApplicationPartsAssemblyInfo.cache

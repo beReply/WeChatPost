@@ -5,19 +5,19 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using WeChatPost.Configuration;
+using WeChatPost.Extensions;
 using WeChatPost.Logger;
-using WeChatPost.WeChat.Extensions;
 using WeChatPost.WeChat.Param;
 
 namespace WeChatPost.WeChat.WeChatServices
 {
     public class WeChatService : IWeChatService
     {
-        private readonly WeChatParam _weChatParam;
+        private readonly WeChatConf _weChatParam;
         private readonly IRequestService _requestService;
         private readonly ILog4Provider _logger;
 
-        public WeChatService(WeChatParam weChatParam, IRequestService requestService, ILog4Provider logger)
+        public WeChatService(WeChatConf weChatParam, IRequestService requestService, ILog4Provider logger)
         {
             _weChatParam = weChatParam;
             _requestService = requestService;

@@ -53,20 +53,41 @@ namespace WeChatPost
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
             });
 
-            services.AddSingleton<WeChatParam>(new WeChatParam
+            #region »´æ÷≈‰÷√
+
+            services.AddSingleton<WeChatConf>(new WeChatConf
             {
                 AppId = _configuration["WeChat:AppId"],
                 AppSecret = _configuration["WeChat:AppSecret"],
                 Url = _configuration["WeChat:Url"]
             });
 
+            services.AddSingleton<MonGoDbConf>(new MonGoDbConf
+            {
+                ConnectionString = _configuration["MonGoDb:ConnectionString"],
+                DatabaseName = _configuration["MonGoDb:DatabaseName"]
+            });
+
+
+
+            #endregion
+
+
+            #region “¿¿µ◊¢»Î
+
             services.AddTransient<IRequestService, RequestService>();
+
             services.AddTransient<IWeChatService, WeChatService>();
+
             services.AddSingleton<ILog4Provider, Log4Provider>();
-            //services.AddTransient<ILog4Provider, Log4Provider>();
 
             LoggerRepository = LogManager.CreateRepository("WeChatPost");
             XmlConfigurator.Configure(LoggerRepository, new FileInfo("log4net.config"));
+
+            #endregion
+
+
+
         }
 
 
